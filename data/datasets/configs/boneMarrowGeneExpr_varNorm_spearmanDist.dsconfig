@@ -1,0 +1,4 @@
+datasetName = bone_marrow_gene_expr
+datasetFile = ALB_ALT_AML.1000genes.res.out2
+distanceMeasureAbsoluteToRelative = SpearmanCorrelationRDistanceMeasure
+preprocessorBeforeDistance = VarianceNormalizationDataPreprocessor

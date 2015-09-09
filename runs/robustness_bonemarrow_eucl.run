@@ -1,0 +1,43 @@
+programConfig = clusterONE_norm,MCODE,DBSCAN,Fanny_Clustering_3membexp,KMedoids_Clustering,KMeans_Clustering,TransClust_2,Hierarchical_Clustering2,APcluster_1,MCL_norm,SOM,Spectral_Clustering,cluster_dp,clusterONE
+dataConfig = boneMarrowGeneExpr
+qualityMeasures = SilhouetteValueRClusteringQualityMeasure,TransClustFClusteringQualityMeasure,TransClustF2ClusteringQualityMeasure,FDRClusteringQualityMeasure,FPRClusteringQualityMeasure,RandIndexClusteringQualityMeasure,SensitivityClusteringQualityMeasure,SpecificityClusteringQualityMeasure,DaviesBouldinIndexRClusteringQualityMeasure,DunnIndexRClusteringQualityMeasure,FowlkesMallowsIndexRClusteringQualityMeasure,JaccardIndexRClusteringQualityMeasure,RandIndexRClusteringQualityMeasure,VMeasureClusteringQualityMeasure
+mode = robustnessAnalysis
+uniqueRunIdentifiers = 05_28_2015-18_12_24_bonemarrow
+randomizer = RemoveAndAddNoiseDataRandomizer
+numberOfRandomizedDataSets = 10
+
+[MCODE]
+maxExecutionTimeMinutes = 20
+
+[RemoveAndAddNoiseDataRandomizer_1]
+add = 0.0
+remove = 0.2
+
+[RemoveAndAddNoiseDataRandomizer_2]
+add = 0.0
+remove = 0.4
+
+[RemoveAndAddNoiseDataRandomizer_3]
+add = 0.2
+remove = 0.0
+
+[RemoveAndAddNoiseDataRandomizer_4]
+add = 0.2
+remove = 0.2
+
+[RemoveAndAddNoiseDataRandomizer_5]
+add = 0.2
+remove = 0.4
+
+[RemoveAndAddNoiseDataRandomizer_6]
+add = 0.4
+remove = 0.0
+
+[RemoveAndAddNoiseDataRandomizer_7]
+add = 0.4
+remove = 0.2
+
+[RemoveAndAddNoiseDataRandomizer_8]
+add = 0.4
+remove = 0.4
+

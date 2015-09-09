@@ -1,0 +1,3 @@
+datasetName = chang_pathbased
+datasetFile = chang_pathbased.txt.conv
+distanceMeasureAbsoluteToRelative = SpearmanCorrelationRDistanceMeasure

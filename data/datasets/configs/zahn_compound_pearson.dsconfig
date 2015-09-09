@@ -1,0 +1,3 @@
+datasetName = zahn_compound
+datasetFile = zahn_compound.txt.conv
+distanceMeasureAbsoluteToRelative = PearsonCorrelationRDistanceMeasure

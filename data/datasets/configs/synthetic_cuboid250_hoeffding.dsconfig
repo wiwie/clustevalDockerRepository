@@ -1,0 +1,4 @@
+datasetName = synthetic
+datasetFile = cuboid250
+firstRowHeader = 0
+distanceMeasureAbsoluteToRelative = HoeffdingDRDistanceMeasure
