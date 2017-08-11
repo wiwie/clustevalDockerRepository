@@ -1,0 +1,15 @@
+mode = parameter_optimization
+dataConfig = boneMarrowGeneExpr:1
+programConfig = cluster_dp:1
+qualityMeasures = DaviesBouldinIndexRClusteringQualityMeasure:2,DunnIndexRClusteringQualityMeasure:2,FDRClusteringQualityMeasure:2,FowlkesMallowsIndexRClusteringQualityMeasure:2,FPRClusteringQualityMeasure:2,JaccardIndexRClusteringQualityMeasure:2,RandIndexClusteringQualityMeasure:2,RandIndexRClusteringQualityMeasure:2,SensitivityClusteringQualityMeasure:2,SilhouetteValueRClusteringQualityMeasure:2,SpecificityClusteringQualityMeasure:2,TransClustF2ClusteringQualityMeasure:2,TransClustFClusteringQualityMeasure:2,VMeasureClusteringQualityMeasure:2
+optimizationCriterion = TransClustFClusteringQualityMeasure:2
+optimizationIterations = 1000
+optimizationMethod = DivisiveParameterOptimizationMethod:3
+
+[cluster_dp:1]
+optimizationParameters = k,dc
+
+[cluster_dp:1:k]
+
+[cluster_dp:1:dc]
+
