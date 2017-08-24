@@ -1,0 +1,6 @@
+version = 3
+datasetName = boneMarrowGeneExpr
+datasetFile = ALB_ALT_AML.1000genes.res.out2:3
+distanceMeasureAbsoluteToRelative = EuclidianDistanceMeasure
+similarityPrecision = double
+

@@ -1,0 +1,6 @@
+version = 1
+datasetName = large_tests
+datasetFile = cuboid_15k:1
+distanceMeasureAbsoluteToRelative = EuclidianDistanceMeasure
+similarityPrecision = double
+

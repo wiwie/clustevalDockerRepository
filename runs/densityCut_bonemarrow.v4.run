@@ -1,0 +1,15 @@
+mode = parameter_optimization
+dataConfig = boneMarrowGeneExpr:2
+programConfig = DensityCut:1
+qualityMeasures = FowlkesMallowsIndexRClusteringQualityMeasure:2,SilhouetteValueRClusteringQualityMeasure:2,TransClustFClusteringQualityMeasure:2,VMeasureClusteringQualityMeasure:2
+optimizationCriterion = TransClustFClusteringQualityMeasure:2
+optimizationIterations = 100
+optimizationMethod = DivisiveParameterOptimizationMethod:3
+
+[DensityCut:1]
+optimizationParameters = K,alpha
+
+[DensityCut:1:K]
+
+[DensityCut:1:alpha]
+

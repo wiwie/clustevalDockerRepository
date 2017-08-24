@@ -1,3 +1,0 @@
-datasetName = veenman_r15
-datasetFile = veenman_r15.txt.conv
-distanceMeasureAbsoluteToRelative = HoeffdingDRDistanceMeasure

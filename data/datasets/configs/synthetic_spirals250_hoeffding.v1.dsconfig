@@ -1,4 +1,0 @@
-datasetName = synthetic
-datasetFile = spirals250
-firstRowHeader = 0
-distanceMeasureAbsoluteToRelative = HoeffdingDRDistanceMeasure

@@ -1,0 +1,4 @@
+version = 1
+datasetConfig = cuboid_10k.v1:1
+goldstandardConfig = cuboid_10k.v1:1
+

@@ -1,0 +1,4 @@
+version = 1
+datasetConfig = astral_class_k:1
+goldstandardConfig = astral_class_k:1
+

@@ -1,3 +1,0 @@
-datasetName = chang_spiral
-datasetFile = chang_spiral.txt.conv
-distanceMeasureAbsoluteToRelative = HoeffdingDRDistanceMeasure

@@ -1,0 +1,97 @@
+mode = parameter_optimization
+dataConfig = boneMarrowGeneExpr:2
+programConfig = APcluster_1:1,agnes:1,cmeans_3membexp:1,cluster_dp:1,DBSCAN:1,DensityCut:1,diana:1,Fanny_Clustering_3membexp:1,Hierarchical_Clustering:1,KMedoids_Clustering:1,MCL_1:1,Spectral_Clustering:1,TransClust_2:1
+qualityMeasures = FowlkesMallowsIndexRClusteringQualityMeasure:2,SilhouetteValueRClusteringQualityMeasure:2,TransClustFClusteringQualityMeasure:2,VMeasureClusteringQualityMeasure:2
+optimizationCriterion = TransClustFClusteringQualityMeasure:2
+optimizationIterations = 100
+optimizationMethod = DivisiveParameterOptimizationMethod:3
+
+[APcluster_1:1]
+optimizationParameters = preference,maxits,convits,dampfact
+
+[agnes:1]
+optimizationParameters = k,metric,method
+
+[cmeans_3membexp:1]
+optimizationParameters = k,m
+
+[cluster_dp:1]
+optimizationParameters = k,dc
+
+[DBSCAN:1]
+optimizationParameters = MinPts,eps
+
+[DensityCut:1]
+optimizationParameters = K,alpha
+
+[diana:1]
+optimizationParameters = k,metric
+
+[Fanny_Clustering_3membexp:1]
+optimizationParameters = k,membexp
+
+[Hierarchical_Clustering:1]
+optimizationParameters = k,method
+
+[KMedoids_Clustering:1]
+optimizationParameters = k
+
+[MCL_1:1]
+optimizationParameters = I
+
+[Spectral_Clustering:1]
+optimizationParameters = k
+
+[TransClust_2:1]
+optimizationParameters = T
+
+[APcluster_1:1:preference]
+
+[APcluster_1:1:maxits]
+
+[APcluster_1:1:convits]
+
+[APcluster_1:1:dampfact]
+
+[agnes:1:k]
+
+[agnes:1:metric]
+
+[agnes:1:method]
+
+[cmeans_3membexp:1:k]
+
+[cmeans_3membexp:1:m]
+
+[cluster_dp:1:k]
+
+[cluster_dp:1:dc]
+
+[DBSCAN:1:MinPts]
+
+[DBSCAN:1:eps]
+
+[DensityCut:1:K]
+
+[DensityCut:1:alpha]
+
+[diana:1:k]
+
+[diana:1:metric]
+
+[Fanny_Clustering_3membexp:1:k]
+
+[Fanny_Clustering_3membexp:1:membexp]
+
+[Hierarchical_Clustering:1:k]
+
+[Hierarchical_Clustering:1:method]
+
+[KMedoids_Clustering:1:k]
+
+[MCL_1:1:I]
+
+[Spectral_Clustering:1:k]
+
+[TransClust_2:1:T]
+

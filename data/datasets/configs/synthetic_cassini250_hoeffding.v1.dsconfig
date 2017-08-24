@@ -1,4 +1,0 @@
-datasetName = synthetic
-datasetFile = cassini250
-firstRowHeader = 0
-distanceMeasureAbsoluteToRelative = HoeffdingDRDistanceMeasure

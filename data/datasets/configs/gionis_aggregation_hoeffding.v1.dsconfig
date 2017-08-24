@@ -1,3 +1,0 @@
-datasetName = gionis_aggregation
-datasetFile = gionis_aggregation.txt.conv
-distanceMeasureAbsoluteToRelative = HoeffdingDRDistanceMeasure

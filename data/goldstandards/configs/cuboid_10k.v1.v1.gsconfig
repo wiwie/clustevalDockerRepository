@@ -1,0 +1,4 @@
+version = 1
+goldstandardName = large_tests
+goldstandardFile = cuboid_10k:1
+
