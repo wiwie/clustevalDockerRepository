@@ -1,0 +1,4 @@
+version = 1
+datasetConfig = astral_fold_h_1:1
+goldstandardConfig = astral_fold_h_1:1
+

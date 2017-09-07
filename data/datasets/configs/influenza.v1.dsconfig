@@ -1,0 +1,6 @@
+version = 1
+datasetName = influenza
+datasetFile = GSE71766_series_matrix_entrez_influenza_ctrl-corrected_aggregated-samples.txt:1
+distanceMeasureAbsoluteToRelative = PearsonCorrelationRDistanceMeasure
+similarityPrecision = double
+

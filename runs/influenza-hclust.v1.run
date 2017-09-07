@@ -1,0 +1,5 @@
+mode = clustering
+dataConfig = influenza:1
+programConfig = Hierarchical_Clustering:1
+qualityMeasures = SilhouetteValueRClusteringQualityMeasure:2
+

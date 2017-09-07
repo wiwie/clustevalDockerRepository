@@ -1,0 +1,37 @@
+mode = parameter_optimization
+dataConfig = astral_class_j:1
+programConfig = cluster_dp:1,Hierarchical_Clustering:1,MCL_1:1,KMedoids_Clustering:1,TransClust_2:1
+qualityMeasures = TransClustFClusteringQualityMeasure:2,FowlkesMallowsIndexRClusteringQualityMeasure:2,SilhouetteValueRClusteringQualityMeasure:2,VMeasureClusteringQualityMeasure:2
+optimizationCriterion = TransClustFClusteringQualityMeasure:2
+optimizationIterations = 1000
+optimizationMethod = DivisiveParameterOptimizationMethod:3
+
+[cluster_dp:1]
+optimizationParameters = k,dc
+
+[Hierarchical_Clustering:1]
+optimizationParameters = k,method
+
+[MCL_1:1]
+optimizationParameters = I
+
+[KMedoids_Clustering:1]
+optimizationParameters = k
+
+[TransClust_2:1]
+optimizationParameters = T
+
+[cluster_dp:1:k]
+
+[cluster_dp:1:dc]
+
+[Hierarchical_Clustering:1:k]
+
+[Hierarchical_Clustering:1:method]
+
+[MCL_1:1:I]
+
+[KMedoids_Clustering:1:k]
+
+[TransClust_2:1:T]
+

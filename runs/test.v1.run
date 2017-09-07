@@ -1,0 +1,12 @@
+mode = parameter_optimization
+dataConfig = boneMarrowGeneExpr:1
+programConfig = Hierarchical_Clustering:1
+qualityMeasures = SilhouetteValueRClusteringQualityMeasure:2
+optimizationCriterion = SilhouetteValueRClusteringQualityMeasure:2
+optimizationIterations = 1000
+optimizationMethod = LayeredDivisiveParameterOptimizationMethod:6
+
+[Hierarchical_Clustering:1]
+optimizationParameters = k,method
+optimizationMethod = LayeredDivisiveParameterOptimizationMethod:6
+

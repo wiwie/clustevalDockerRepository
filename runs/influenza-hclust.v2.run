@@ -1,0 +1,12 @@
+mode = parameter_optimization
+dataConfig = influenza:1
+programConfig = Hierarchical_Clustering:1
+qualityMeasures = SilhouetteValueRClusteringQualityMeasure:3-SNAPSHOT
+optimizationCriterion = SilhouetteValueRClusteringQualityMeasure:3-SNAPSHOT
+optimizationIterations = 1000
+optimizationMethod = FlatteningLayeredDivisiveParameterOptimizationMethod:11
+
+[Hierarchical_Clustering:1]
+optimizationParameters = k,method
+optimizationMethod = FlatteningLayeredDivisiveParameterOptimizationMethod:11
+

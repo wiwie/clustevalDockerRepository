@@ -1,0 +1,6 @@
+version = 1
+datasetName = astral_fold_h_1
+datasetFile = astral-scopedom-seqres-gd-sel-gs-bib-40-2.06_h.1.fa.blast:1
+distanceMeasureAbsoluteToRelative = EuclidianDistanceMeasure
+similarityPrecision = double
+
